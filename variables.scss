@@ -1,0 +1,21 @@
+/*create variables with Saas */
+/*al variables start with $ 
+its used to no tener que cambiar el color en cada elemento
+* put the link reference in the html
+* needs to compile de file scss, because the browser no lo reconoce, convertir a css
+     sass variables.scss:variables.css
+    * compilar file cada que hagas cambios
+      sass --watch variables.scss:variables.css
+*/
+$color: red;
+
+ul{
+    font-size: 14px;
+    color: $color; /*color red*/
+}
+ol {
+    font-size: 18px;
+    color:  $color;
+}
+
+

@@ -1,0 +1,19 @@
+version control tool
+
+*keep track of changes to code
+*synchronizes code  between different people
+* use a repository online
+*differents branchs
+-------------------------------------------------
+                      COMANDS
+* git clone url
+* git add (specify file)
+  git add .
+* git commit -m "message"  
+
+
+
+
+
+
+

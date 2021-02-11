@@ -8,12 +8,33 @@ version control tool
                       COMANDS
 * git clone url
 * git add (specify file)
-  git add .
+  git add .                //add files to the local repos
 * git commit -m "message"  
+* git status
+* git push                 //push to the server repository
+* git pull                 //take the changes that currently exist on github and pull to my local repository
+
+      MERGE CONFLICTS
+* git merge
+
+*git log                //keep track of all of the changes
+* git reset             //will take the current state of the rep and revert it back to and 
+                          older rep
+  git reset --hard <commit>     //will reset the current state of you repository back to whatever state
+
+       BRANCHING
+master  | otherBranch
+ * git branch  //tell me what branch im currently, and what branches exist
+ * git checkout -b style   //create a new branch style and switch to style branch
+ * git checkout main       // switch to main branch
+ * git merge style         //merge main with style, anf fix the conflicts
+  * and then // git commit 
 
 
+        FORK
+You can copy the repository to your own account
 
 
-
+      GITHUB PAGES
 
 
